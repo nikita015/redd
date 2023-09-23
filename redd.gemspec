@@ -28,9 +28,11 @@ Gem::Specification.new do |spec| # rubocop:disable Metrics/BlockLength
   spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'rake'
   spec.add_development_dependency 'yard', '~> 0.9.9'
-  spec.add_development_dependency 'rubocop', '~> 0.50'
+  spec.add_development_dependency 'rubocop', '~> 1.26'
 
+  spec.add_development_dependency 'guard', '~> 2.14'
+  spec.add_development_dependency 'guard-rspec', '~> 4.7'
   spec.add_development_dependency 'rspec', '~> 3.5'
-  spec.add_development_dependency 'webmock', '~> 2.3'
-  spec.add_development_dependency 'vcr', '~> 3.0'
+  spec.add_development_dependency 'webmock', '~> 3.14'
+  spec.add_development_dependency 'vcr', '~> 6.2'
 end
